@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "384677380950",
+    "firebase_url": "https://old-monk-4cf70.firebaseio.com",
+    "project_id": "old-monk-4cf70",
+    "storage_bucket": "old-monk-4cf70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384677380950:android:7d65e084a7a91a224dccf7",
+        "android_client_info": {
+          "package_name": "com.example.oldmonk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384677380950-efohlppucgku8spap3ss8a6k9d94sekj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oldmonk",
+            "certificate_hash": "56cb5501c5bbe75eadc88b84ed9cf62f2e42cdcb"
+          }
+        },
+        {
+          "client_id": "384677380950-a9seh2i10gj0mi729vqcmce6u9q4krbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6CohOdq_2F-IyRNLPKtctrh63Qqq0GL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384677380950-a9seh2i10gj0mi729vqcmce6u9q4krbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
