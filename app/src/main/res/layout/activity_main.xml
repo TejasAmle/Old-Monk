@@ -8,32 +8,39 @@
 
     <ImageButton
         android:id="@+id/calender"
-        android:layout_width="133dp"
-        android:layout_height="129dp"
+        android:layout_width="142dp"
+        android:layout_height="142dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="28dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/yoga"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315"
         app:srcCompat="@drawable/calender" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Button"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/food"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="1.0"-->
+    <!--        tools:layout_editor_absoluteX="176dp" />-->
 
     <ImageButton
         android:id="@+id/food"
         android:layout_width="143dp"
         android:layout_height="139dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/calender"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835"
+        app:layout_constraintVertical_bias="0.057"
         app:srcCompat="@drawable/food" />
 
     <ImageButton
@@ -41,12 +48,13 @@
         android:layout_width="129dp"
         android:layout_height="134dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/newspaper"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
         app:srcCompat="@drawable/yoga" />
 
     <ImageButton
@@ -54,13 +62,65 @@
         android:layout_width="144dp"
         android:layout_height="144dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="28dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908"
         app:srcCompat="@drawable/hindi_newspaper" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="131dp"
+        android:layout_height="137dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        app:srcCompat="@drawable/call" />
+
+    <ImageButton
+        android:id="@+id/schedule"
+        android:layout_width="136dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        app:srcCompat="@drawable/secudule" />
+
+    <ImageButton
+        android:id="@+id/broadcast"
+        android:layout_width="143dp"
+        android:layout_height="147dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="26dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935"
+        app:srcCompat="@drawable/broadcast" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="137dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/googleg_standard_color_18" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

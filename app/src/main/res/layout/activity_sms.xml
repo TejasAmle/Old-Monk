@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".sms_activity"
+        android:id="@+id/relativeLayout2">
+
+    <!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_below="@+id/textView2"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:src="@drawable/abc"-->
+<!--        tools:layout_editor_absoluteX="214dp"-->
+<!--        tools:layout_editor_absoluteY="605dp" />-->
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="234dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="252dp"
+        android:autofillHints="Write your Message here"
+        android:hint="Write your Message here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="207dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/inputMessage"
+        android:onClick="onSend"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputMessage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
