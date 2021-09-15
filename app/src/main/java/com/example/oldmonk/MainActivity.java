@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://isha.sadhguru.org/yoga/yoga_articles_yoga/how-to-do-yoga/"));
+//                intent.setData(Uri.parse("https://isha.sadhguru.org/yoga/yoga_articles_yoga/how-to-do-yoga/"));
+                linkSetter("https://isha.sadhguru.org/yoga/yoga_articles_yoga/how-to-do-yoga/");
                 startActivity(intent);
             }
         });
@@ -54,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://grofers.com/"));
+//                intent.setData(Uri.parse("https://grofers.com/"));
+                linkSetter("https://grofers.com/");
                 startActivity(intent);
             }
         });
@@ -65,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"));
+//                intent.setData(Uri.parse("https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"));
+                linkSetter("https://www.drikpanchang.com/calendars/hindu/hinducalendar.html");
                 startActivity(intent);
             }
         });
@@ -76,7 +79,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.jagran.com/"));
+//                intent.setData(Uri.parse("https://www.jagran.com/"));
+                linkSetter("https://www.jagran.com/");
+
                 startActivity(intent);
             }
         });
@@ -95,7 +100,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://peercalls.com/"));
+//                intent.setData(Uri.parse("https://peercalls.com/"));
+                linkSetter("https://peercalls.com/");
                 startActivity(intent);
             }
         });
@@ -106,7 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://calendly.com/"));
+//                intent.setData(Uri.parse("https://calendly.com/"));
+                linkSetter("https://calendly.com/");
                 startActivity(intent);
             }
         });
@@ -115,6 +122,13 @@ public class MainActivity extends AppCompatActivity {
     private void opensms_activity() {
         Intent intent = new Intent(MainActivity.this, sms_activity.class);
         startActivity(intent);
+    }
+
+    public void linkSetter(String url){
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+        intent.setData(Uri.parse(url));
     }
 
 
