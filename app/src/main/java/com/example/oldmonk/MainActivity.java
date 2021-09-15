@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://peercalls.com/call/4b6923a2-e9a1-4084-9768-5c98c2fefa64#"));
+                intent.setData(Uri.parse("https://peercalls.com/"));
                 startActivity(intent);
             }
         });
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://calendly.com/kartikay-bansal2014/15min"));
+                intent.setData(Uri.parse("https://calendly.com/"));
                 startActivity(intent);
             }
         });

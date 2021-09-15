@@ -39,7 +39,7 @@ public class sms_activity extends AppCompatActivity{
 
 
     public void onSend(View v){
-        String phoneNumber = "8299219584";
+        String phoneNumber = "9910282204";
         String smsMessage = message.getText().toString();
 
         if(checkPermission(Manifest.permission.SEND_SMS)){

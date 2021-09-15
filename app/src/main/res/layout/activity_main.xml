@@ -6,20 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/calender"
-        android:layout_width="142dp"
-        android:layout_height="142dp"
-        android:layout_marginStart="16dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315"
-        app:srcCompat="@drawable/calender" />
-
     <!--    <Button-->
     <!--        android:id="@+id/button1"-->
     <!--        android:layout_width="wrap_content"-->
@@ -31,96 +17,124 @@
     <!--        tools:layout_editor_absoluteX="176dp" />-->
 
     <ImageButton
-        android:id="@+id/food"
-        android:layout_width="143dp"
-        android:layout_height="139dp"
+        android:id="@+id/calender"
+        android:layout_width="101dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057"
+        app:layout_constraintVertical_bias="0.409"
+        app:srcCompat="@drawable/calender" />
+
+    <ImageButton
+        android:id="@+id/food"
+        android:layout_width="100dp"
+        android:layout_height="103dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
         app:srcCompat="@drawable/food" />
 
     <ImageButton
         android:id="@+id/yoga"
-        android:layout_width="129dp"
-        android:layout_height="134dp"
+        android:layout_width="91dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
+        app:layout_constraintVertical_bias="0.646"
         app:srcCompat="@drawable/yoga" />
 
     <ImageButton
         android:id="@+id/newspaper"
-        android:layout_width="144dp"
-        android:layout_height="144dp"
+        android:layout_width="101dp"
+        android:layout_height="112dp"
         android:layout_marginStart="16dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894"
+        app:layout_constraintVertical_bias="0.903"
         app:srcCompat="@drawable/hindi_newspaper" />
 
     <ImageButton
         android:id="@+id/button1"
-        android:layout_width="131dp"
-        android:layout_height="137dp"
+        android:layout_width="101dp"
+        android:layout_height="99dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321"
+        app:layout_constraintVertical_bias="0.405"
         app:srcCompat="@drawable/call" />
 
     <ImageButton
         android:id="@+id/schedule"
-        android:layout_width="136dp"
-        android:layout_height="133dp"
+        android:layout_width="97dp"
+        android:layout_height="102dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593"
+        app:layout_constraintVertical_bias="0.648"
         app:srcCompat="@drawable/secudule" />
 
     <ImageButton
         android:id="@+id/broadcast"
-        android:layout_width="143dp"
-        android:layout_height="147dp"
+        android:layout_width="97dp"
+        android:layout_height="108dp"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="26dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935"
+        app:layout_constraintVertical_bias="0.976"
         app:srcCompat="@drawable/broadcast" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="137dp"
-        android:layout_height="135dp"
+        android:layout_width="93dp"
+        android:layout_height="94dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063"
+        app:layout_constraintVertical_bias="0.175"
         app:srcCompat="@drawable/googleg_standard_color_18" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="34dp"
+        android:text="Select Option"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
