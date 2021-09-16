@@ -1,0 +1,16 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ûñ‡ï
+d	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°è¬±
+h	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¶¬
+j	java:S116"PRename this field "Login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦–õÄıÿÿÿÿ
+d	java:S116"ORename this field "Info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õì‹
+z
+java:S1450"_Remove the "userRegistartion" field and declare it as a local variable in the relevant methods.(©•Ò€ûÿÿÿÿ
+S
+java:S1854L"8Remove this useless assignment to local variable "user".(©Í”äıÿÿÿÿ
+D
+java:S1481L")Remove this unused "user" local variable.(©Í”äıÿÿÿÿ
+/
+java:S1700"Rename field "Login"(¦–õÄıÿÿÿÿ
+G
+java:S1153\"1Directly append the argument of String.valueOf().(‹Ï±
